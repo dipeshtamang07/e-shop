@@ -1,0 +1,17 @@
+
+.productItem {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.productImage {
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+}

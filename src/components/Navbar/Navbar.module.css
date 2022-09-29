@@ -1,0 +1,50 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2rem;
+    padding-inline: 3rem;
+    /* border-bottom: 1px solid grey; */
+    position: sticky;
+    top: 0;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.cartLink {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-7px, -10px);
+}
